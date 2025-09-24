@@ -24,16 +24,6 @@ class Pi < Formula
     end
   end
 
-  on_windows do
-    if Hardware::CPU.arm?
-      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.0.0-windows-arm64.tar.gz"
-      sha256 "a68482c5dffca19626fd014ec8dd9e1d94f4dca3a7fba68d5e7dc6a1d76e529d"
-    else
-      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.0.0-windows-amd64.tar.gz"
-      sha256 "e5d20e8cfbcb0f3a509b181ba259dca66f4c82a81cfbf42b31de19be228ef981"
-    end
-  end
-
   def install
     bin.install "pi"
   end
