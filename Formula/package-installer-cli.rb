@@ -24,6 +24,16 @@ class PackageInstallerCli < Formula
     end
   end
 
+  on_windows do
+    if Hardware::CPU.arm?
+      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/package-installer-cli-1.0.0-windows-arm64.tar.gz"
+      sha256 "a8786c702267d400b75ef30093b71de949e25c6416a808b0fb64a7c35f037e53"
+    else
+      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/package-installer-cli-1.0.0-windows-amd64.tar.gz"
+      sha256 "9c65f65e5fc3494a6b66fb3684bfd83f8757df7fbd701a98a8d870a17fb1c403"
+    end
+  end
+
   def install
     bin.install "package-installer-cli"
   end
