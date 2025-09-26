@@ -6,21 +6,21 @@ class Pi < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.0.0-darwin-arm64.tar.gz"
-      sha256 "162442da3c1941e7b987e205bbe7ceed55ee3ecc27c618e22b575ccccf2b9be1"
+      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.1.0-darwin-arm64.tar.gz"
+      sha256 "70e31fa74a6ecb9e19ef3dfee708065b5abb5c30d5edba4f3d62f74067848b96"
     else
-      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.0.0-darwin-amd64.tar.gz"
-      sha256 "a2820dccbb60a35ac76f22fc451bef7f650c153a88f4051d504f9abcaf0cb0d9"
+      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.1.0-darwin-amd64.tar.gz"
+      sha256 "b5f2b671750f8680f6b559e6f2878b01242addbc0f306953b7d44b8db33f283f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.0.0-linux-arm64.tar.gz"
-      sha256 "92dbcc6263313863a08811cf861463377f1f8788f23239a07521048ff35624b8"
+      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.1.0-linux-arm64.tar.gz"
+      sha256 "dcf58cae92ff11f15622defc3e851f218273e06dde30632b26e2933b8b5b9450"
     else
-      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.0.0-linux-amd64.tar.gz"
-      sha256 "4f5886da3ae1df2f2d8da334ed1ddf9b11a0c2fa7e6ea505d556e07f75c0025a"
+      url "https://github.com/0xshariq/go_package_installer_cli/releases/download/v1.0.0/pi-1.1.0-linux-amd64.tar.gz"
+      sha256 "74e8ec4c4716668321764bf10840347dc6ae2d611f483e3a3e3ffc83c904c7d2"
     end
   end
 
