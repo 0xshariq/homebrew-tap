@@ -7,20 +7,20 @@ class Pi < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/pi-1.2.0-darwin-arm64.tar.gz"
-      sha256 "70e31fa74a6ecb9e19ef3dfee708065b5abb5c30d5edba4f3d62f74067848b96"
+      sha256 "3bbb83be47d8f89343914e4226a5bc5ede518ce9dcbc9882dd86db9195af6d9f"
     else
       url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/pi-1.2.0-darwin-amd64.tar.gz"
-      sha256 "b5f2b671750f8680f6b559e6f2878b01242addbc0f306953b7d44b8db33f283f"
+      sha256 "121569c402074856496df2cab0b95e5e0b1628f5a17f27e85c7fd38c1ba7dc5e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/pi-1.2.0-linux-arm64.tar.gz"
-      sha256 "dcf58cae92ff11f15622defc3e851f218273e06dde30632b26e2933b8b5b9450"
+      sha256 "9f4f62c658241acbafc74e25055fb00b5cb9916ce984a880b0b667cb55be4da3"
     else
       url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/pi-1.2.0-linux-amd64.tar.gz"
-      sha256 "74e8ec4c4716668321764bf10840347dc6ae2d611f483e3a3e3ffc83c904c7d2"
+      sha256 "24e5918032b44e987105cf9a330f1eeebad57be3bce86648136cbd644d6293eb"
     end
   end
 
