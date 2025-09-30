@@ -1,26 +1,26 @@
 class PackageInstallerCli < Formula
   desc "CLI tool to install and manage packages easily"
   homepage "https://github.com/0xshariq/homebrew-tap"
-  version "1.1.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.2.0-darwin-arm64.tar.gz"
-      sha256 "911686adb80fb26ebeff16d18d580bdb583f859114e47e053c7b87faffa2a27f"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.3.0-darwin-arm64.tar.gz"
+      sha256 "52559d070297a24015b55c73473dc30dc672f5b4c4ff37da81acfee1ca0550c6"
     else
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.2.0-darwin-amd64.tar.gz"
-      sha256 "4cba86b8e1231069ea254c814967dbcc3f1cdb114612313d33aa67de4114785d"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.3.0-darwin-amd64.tar.gz"
+      sha256 "abf8fb7be7876f2df2655e94ddd46e9cbc74ef718b13d5671e2cedca7ec8b535"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.2.0-linux-arm64.tar.gz"
-      sha256 "49e3d8a5312b778f55c59fe733bfc2be8a3885a848eb6f3add57491d4a59b8a3"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.3.0-linux-arm64.tar.gz"
+      sha256 "abea256a5ff9f666670089d19fb907bd32fd719c5faa11ab65e4ed8bff646a89"
     else
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.2.0-linux-amd64.tar.gz"
-      sha256 "8547613945a7c7126775b4fec8b4a8e87aec1ac008d4221e20f237ef26672cd6"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.2.0/package-installer-cli-1.3.0-linux-amd64.tar.gz"
+      sha256 "a0ac8c822be21eba4f6f35f2c0178033565a5e982e32268ee09cc0336dee166b"
     end
   end
 
