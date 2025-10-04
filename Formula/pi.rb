@@ -1,26 +1,26 @@
 class Pi < Formula
   desc "Second option of Package Installer CLI"
   homepage "https://github.com/0xshariq/homebrew-tap"
-  version "1.3.2"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.3.2/pi-1.3.2-darwin-arm64.tar.gz"
-      sha256 "0f73eadd1c0d41493f6c996528338c18257eafee997ccb354e0ddb1d1f2e4c66"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.4.0/pi-1.4.0-darwin-arm64.tar.gz"
+      sha256 "77596bf4eb3d9e6d60f5e1d259e7c717bd05bb38bb9e5c8abd9a7fa487b31511"
     else
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.3.2/pi-1.3.2-darwin-amd64.tar.gz"
-      sha256 "c2a87828edc9d8ab011065c6a5a370731c6afe6af58ba391be7860b276076576"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.4.0/pi-1.4.0-darwin-amd64.tar.gz"
+      sha256 "c20cdaf3d43caae8856e5cd38d51ed220327c9a7d1db9ab7a0d630b46c8cf3ed"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.3.2/pi-1.3.2-linux-arm64.tar.gz"
-      sha256 "660a787efd77786eeda6cb6c80d0f8907992c012aba6ecdb450b5abdb6d2996e"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.4.0/pi-1.4.0-linux-arm64.tar.gz"
+      sha256 "178ca38030f7a1ebe701fb79bb4f28064080237f57aab0876b0ae5b122e6c654"
     else
-      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.3.2/pi-1.3.2-linux-amd64.tar.gz"
-      sha256 "f9ed85a1561c69f1a6a8902918a49e31ae871e3ef577e1b2b8a13365f5351cc7"
+      url "https://github.com/0xshariq/homebrew-tap/releases/download/v1.4.0/pi-1.4.0-linux-amd64.tar.gz"
+      sha256 "7dfdf98286c89bc49a85f9d3c5b693c6ae214373607bfa32935facc62ad6a894"
     end
   end
 
